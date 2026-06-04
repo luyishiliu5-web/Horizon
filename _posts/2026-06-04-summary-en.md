@@ -5,397 +5,347 @@ date: 2026-06-04
 lang: en
 ---
 
-> From 60 items, 17 important content pieces were selected
+> From 22 items, 15 important content pieces were selected
 
 ---
 
-1. [DaVinci Resolve 21 Adds Lightroom-Like Photo Management](#item-1) ⭐️ 9.0/10
-2. [MiniMax Unveils MSA: 1M Context with 4x Speedup](#item-2) ⭐️ 9.0/10
-3. [Google DeepMind Releases Gemma 4 Open Multimodal Models](#item-3) ⭐️ 9.0/10
-4. [Gemma 4 Unified Model Spotted in llama.cpp](#item-4) ⭐️ 9.0/10
-5. [HTTP/2 Bomb DoS Attack Targets Major Web Servers](#item-5) ⭐️ 9.0/10
-6. [Elixir v1.20 brings gradual typing](#item-6) ⭐️ 8.0/10
-7. [Uber Caps Employee AI Tool Usage to $1,500/Month](#item-7) ⭐️ 8.0/10
-8. [Pwnd Blaster: Soundbar Hacked via Bluetooth to Inject Keystrokes](#item-8) ⭐️ 8.0/10
-9. [Let's Encrypt Plans Post-Quantum Certificates with Merkle Tree Certificates](#item-9) ⭐️ 8.0/10
-10. [Espressif Announces ESP32-S31 with RISC-V and SIMD](#item-10) ⭐️ 8.0/10
-11. [Mathematicians Warn About AI's Rapid Advance](#item-11) ⭐️ 8.0/10
-12. [BPF in the agentic era](#item-12) ⭐️ 8.0/10
-13. [Tridgell defends LLM use for rsync security](#item-13) ⭐️ 8.0/10
-14. [NeurIPS Desk Rejection Sparks AI Detector Validation Debate](#item-14) ⭐️ 8.0/10
-15. [TorchDAE Library Brings Differentiable DAE Solvers to PyTorch](#item-15) ⭐️ 8.0/10
-16. [Qwen3.5-9B beats Gemma-4-12B in 5/8 benchmarks](#item-16) ⭐️ 8.0/10
-17. [Android phone becomes Vulkan-accelerated LLM inference node](#item-17) ⭐️ 8.0/10
+1. [Elixir v1.20 Introduces Gradual Typing, a Major Evolution](#item-1) ⭐️ 9.0/10
+2. [AI Consciousness: Weights vs. Human Mind](#item-2) ⭐️ 8.0/10
+3. [Uber Caps AI Coding Tool Spending at $1,500 per Employee](#item-3) ⭐️ 8.0/10
+4. [Microsoft unveils efficient MAI-Thinking-1 and MAI-Code-1-Flash models](#item-4) ⭐️ 8.0/10
+5. [OpenAI Releases Public Policy Agenda for AI](#item-5) ⭐️ 8.0/10
+6. [VoidZero Joins Cloudflare, Sparking Open Source Funding Debate](#item-6) ⭐️ 7.0/10
+7. [UK media fails to disclose defence ties in 60% of cases](#item-7) ⭐️ 7.0/10
+8. [Gaussian Point Splatting Unveiled at SIGGRAPH 2026](#item-8) ⭐️ 7.0/10
+9. [Wasmer uses Codex to build Node.js runtime for edge](#item-9) ⭐️ 7.0/10
+10. [EVA-Bench Data 2.0: Expanded AI Agent Benchmark with 213 Scenarios](#item-10) ⭐️ 7.0/10
+11. [DPO Extended Beyond Chatbots to Diverse Domains](#item-11) ⭐️ 7.0/10
+12. [Datasette-Agent-MicroPython Alpha for Safe Code Execution](#item-12) ⭐️ 6.0/10
+13. [OpenAI Enhances GPT-Rosalind for Life Sciences](#item-13) ⭐️ 6.0/10
+14. [Fine-Tuning Nvidia Nemotron 3.5 ASR for Custom Needs](#item-14) ⭐️ 6.0/10
+15. [Integrating MCP Tools with Reachy Mini Robot](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [DaVinci Resolve 21 Adds Lightroom-Like Photo Management](https://www.blackmagicdesign.com/products/davinciresolve/whatsnew) ⭐️ 9.0/10
+## [Elixir v1.20 Introduces Gradual Typing, a Major Evolution](https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/) ⭐️ 9.0/10
 
-DaVinci Resolve 21 introduces a new photo management and editing module, similar to Adobe Lightroom, alongside enhanced motion graphics tools and several AI-powered features. This major update expands DaVinci Resolve beyond video post-production into photo workflows, potentially replacing separate tools for photographers and motion graphics artists, and making it a more compelling all-in-one solution for media professionals. The photo management feature is still in need of polish before replacing dedicated subscriptions, but the motion graphics additions are already sufficient to undercut many basic uses of Adobe After Effects.
+Elixir v1.20, released in June 2026, officially introduces gradual typing into the language, allowing developers to optionally add static type annotations to Elixir code for improved safety and tooling. This marks a paradigm shift for Elixir, bridging the gap between dynamic and static typing, which could significantly reduce runtime errors and enhance developer productivity, especially for large codebases. The gradual typing system in v1.20 is based on the work by Jeremy Siek and Tao, and allows mixing typed and untyped code within the same project, with type checking that gradually increases in strictness.
 
-hackernews · pentagrama · Jun 3, 14:18 · [Discussion](https://news.ycombinator.com/item?id=48384482)
+hackernews · cloud8421 · Jun 3, 19:02 · [Discussion](https://news.ycombinator.com/item?id=48388324)
 
-**Background**: DaVinci Resolve is a professional video editing, color grading, and audio post-production suite developed by Blackmagic Design. With version 21, it adds a photo management module that supports importing, organizing, and editing still images, competing with tools like Lightroom and Capture One.
+**Background**: Gradual typing is a type system that allows developers to choose between dynamic and static typing within a single language. Elixir, a functional language built on the Erlang VM, has traditionally been dynamically typed, relying on tools like Dialyzer for static analysis. With v1.20, Elixir gains native type annotations and a type checker, blending the flexibility of dynamic typing with the safety of static types.
 
-**Discussion**: Community comments are largely positive, with users praising the non-AI additions like photo management as a huge improvement. Some desire more advanced AI features such as a keyframe agent, while others appreciate the existing AI tools for practical workflow benefits.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Gradual_typing">Gradual typing - Wikipedia</a></li>
+<li><a href="https://jsiek.github.io/home/WhatIsGradualTyping.html">What is Gradual Typing | Jeremy Siek</a></li>
+<li><a href="https://people.csail.mit.edu/feser/pld-s23/gradual_typing.html">Gradual Typing - people.csail.mit.edu</a></li>
 
-**Tags**: `#DaVinci Resolve`, `#video editing`, `#photo management`, `#Blackmagic Design`, `#AI features`
+</ul>
+</details>
+
+**Discussion**: The community shows high engagement, with experienced developers expressing excitement about the type system's potential. Some note that while pattern matching helps, it does not fully replace static types, while others compare the new system to Dialyzer and share concerns about integration with existing projects.
+
+**Tags**: `#Elixir`, `#gradual typing`, `#functional programming`, `#type systems`, `#programming languages`
 
 ---
 
 <a id="item-2"></a>
-## [MiniMax Unveils MSA: 1M Context with 4x Speedup](https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/) ⭐️ 9.0/10
+## [AI Consciousness: Weights vs. Human Mind](https://maxleiter.com/blog/weights) ⭐️ 8.0/10
 
-MiniMax introduced MiniMax Sparse Attention (MSA), a new attention architecture that natively supports a 1-million-token context window, achieving 4x faster execution than Flash-Sparse-Attention and reducing per-token compute to 1/20th of previous models. This breakthrough enables efficient long-context processing for large language models, critical for advanced agentic tasks and multimodal applications, potentially setting a new standard for open-weight models with frontier coding, 1M context, and native multimodality. MSA uses a 'KV outer gather Q' approach that treats KV blocks as the outer loop to aggregate hit queries, ensuring contiguous memory reads and fetching each block exactly once. It achieves up to 9x speedup in prefilling and 15x speedup in decoding phases.
+A philosophical article argues that AI systems, being 'made out of weights,' differ fundamentally from human consciousness, sparking deep debate. This discussion challenges the popular narrative of emergent AI consciousness and forces a re-examination of what intelligence and awareness truly mean. The article draws on Heidegger, Dreyfus, and cognitive linguistics to argue that AI lacks the embodied, contextual understanding inherent in human consciousness.
 
-reddit · r/MachineLearning · /u/superintelligence03 · Jun 3, 01:26
+hackernews · MaxLeiter · Jun 3, 23:37 · [Discussion](https://news.ycombinator.com/item?id=48391611)
 
-**Background**: Standard attention mechanisms scale quadratically with sequence length, making long-context inference expensive. Sparse attention methods reduce this complexity but often sacrifice recall or require complex implementations. MSA addresses these limitations by restructuring memory access patterns at the operator level.
+**Background**: In neural networks, 'weights' are numerical parameters that adjust as the network learns, transforming input data to produce outputs. Large language models (LLMs) like GPT are trained on vast text data to predict and generate language, but they operate without subjective experience or embodied interaction with the world.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/">MiniMax Releases MiniMax M3 with MSA Architecture... - MarkTechPost</a></li>
-<li><a href="https://www.minimax.io/blog/minimax-m3">MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All...</a></li>
-<li><a href="https://huggingface.co/blog/AtlasCloud-AI/minimax-goes-sparse">MiniMax Goes Sparse : Decoding M3's Attention from a Single Diagram</a></li>
+<li><a href="https://deepai.org/machine-learning-glossary-and-terms/weight-artificial-neural-network">Weight (Artificial Neural Network) Definition | DeepAI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
+<li><a href="https://www.ibm.com/think/topics/large-language-models">What Are Large Language Models ( LLMs )? | IBM</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#attention architecture`, `#LLM`, `#context window`, `#optimization`, `#MiniMax`
+**Discussion**: Commenters debate the validity of comparing weights to neurons; some argue that the fixed manifold after training prevents genuine learning, while others point out that the article itself is a human creation, not an AI one, which undercuts its point.
+
+**Tags**: `#AI`, `#consciousness`, `#philosophy`, `#LLMs`, `#cognitive science`
 
 ---
 
 <a id="item-3"></a>
-## [Google DeepMind Releases Gemma 4 Open Multimodal Models](https://www.reddit.com/r/LocalLLaMA/comments/1tvtn6m/googlegemma412b_hugging_face/) ⭐️ 9.0/10
+## [Uber Caps AI Coding Tool Spending at $1,500 per Employee](https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything) ⭐️ 8.0/10
 
-Google DeepMind released Gemma 4, a family of open-weight multimodal models supporting text, image, video, and audio input, with up to 256K context window, configurable reasoning modes, and both Dense and Mixture-of-Experts (MoE) architectures. Gemma 4 democratizes state-of-the-art AI by offering models from 2B to 31B parameters deployable on phones to servers, with competitive coding and reasoning capabilities that challenge proprietary models. The smallest models (E2B, E4B, 12B) natively support audio; the encoder-free vision approach uses a lightweight embedding module instead of a dedicated vision encoder like SigLIP. All models support over 140 languages and native system prompts.
+Uber has implemented a $1,500 monthly spending cap per employee on each AI coding tool, such as Claude Code and Cursor, after blowing its entire 2026 AI budget in just four months due to the high token consumption of agentic coding software. This move highlights the real cost challenges enterprises face as agentic AI coding tools gain popularity, offering a benchmark for how companies might manage AI spending relative to engineering salaries. It also signals that even well-funded companies are struggling to control costs from token-based pricing models. The $1,500 limit applies per tool, not in aggregate, and covers agentic coding software like Cursor and Claude Code. At $330,000 median compensation per Uber engineer, the annual cap of up to $36,000 (two tools) represents roughly 11% of total compensation.
 
-reddit · r/LocalLLaMA · /u/jacek2023 · Jun 3, 15:57
+rss · Simon Willison · Jun 3, 12:01
 
-**Background**: Gemma is Google's family of open LLMs, with Gemma 4 being the latest iteration. MoE architecture activates only a subset of parameters per token, improving efficiency. Configurable reasoning allows models to spend more compute on complex tasks like math or coding.
+**Background**: Agentic coding tools are AI systems that autonomously plan, write, test, and modify code with minimal human intervention, consuming significantly more tokens (the units of AI processing) per task than traditional chatbots. Token-based pricing means costs scale with usage, and enterprise plans do not offer the same generous subsidies as individual subscriptions. Uber's budget blowout occurred because these tools became popular much faster than anticipated when the 2026 budget was set in 2025.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/mixture-of-experts/">What Is Mixture of Experts (MoE) and How It Works? - NVIDIA</a></li>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained - Hugging Face</a></li>
+<li><a href="https://code.claude.com/">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases | Google Cloud</a></li>
+<li><a href="https://www.spiceworks.com/ai/token-shock-and-the-hidden-cost-of-ai-consumption/">Token shock and the hidden cost of AI consumption - Spiceworks</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community feedback on Reddit is positive overall, with users noting decent performance on vibe-coding benchmarks despite some syntax errors. Questions were raised about Google's business motives for releasing open models and the implications of the encoder-free vision approach.
-
-**Tags**: `#Gemma 4`, `#Google DeepMind`, `#open-source AI`, `#multimodal`, `#LLM`
+**Tags**: `#AI`, `#cost management`, `#Claude Code`, `#Uber`, `#coding tools`
 
 ---
 
 <a id="item-4"></a>
-## [Gemma 4 Unified Model Spotted in llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1tvswv1/gemma_4_unified_is_coming/) ⭐️ 9.0/10
+## [Microsoft unveils efficient MAI-Thinking-1 and MAI-Code-1-Flash models](https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything) ⭐️ 8.0/10
 
-A merged pull request in llama.cpp (PR #24077) reveals code for a new 'Gemma 4 Unified' model type, suggesting Google is preparing to release a novel multimodal architecture. The code includes comments referencing a 'transformer-less vision tower'. This early support in a widely-used inference engine indicates an imminent official release from Google, and the transformer-less vision tower hints at a potential paradigm shift in multimodal model design. The AI community is eager to see how this architecture differs from existing approaches. The 'Unified' label refers to an encoder-free design that projects image patches directly into the LLM's embedding space via lightweight linear layers, skipping a separate vision encoder. This could reduce multimodal latency and simplify deployment, but the full architecture details remain under wraps.
+Microsoft announced two new large language models: MAI-Thinking-1, a reasoning model with 1 trillion total parameters but only 35 billion active parameters via mixture-of-experts, and MAI-Code-1-Flash, a code-specialist model with 137 billion total and 5 billion active parameters, rolling out to GitHub Copilot users in VS Code. These models demonstrate that high performance can be achieved with far fewer active parameters, reducing inference costs and enabling local deployment, which is a significant step for practical AI adoption and competition with larger proprietary models. Both models were trained from scratch on clean, commercially licensed data without distillation from third-party models, though MAI-Thinking-1's technical paper reveals it still relies on a proprietary web crawl and Common Crawl, including filtered adult and piracy domains.
 
-reddit · r/LocalLLaMA · /u/eapache · Jun 3, 15:32
+rss · Simon Willison · Jun 2, 22:21
 
-**Background**: llama.cpp is an open-source C/C++ library for efficient LLM inference on consumer hardware, widely used by the local AI community. In vision-language models, a 'vision tower' traditionally refers to a visual encoder (often a Vision Transformer) that extracts features from images. Gemma 4 12B's 'Unified' variant, recently announced by Google, eliminates this encoder entirely, making the model simpler and faster for multimodal tasks.
+**Background**: Mixture of experts (MoE) is a technique that divides a model into multiple 'expert' sub-networks, activating only a subset per input, which allows large total parameter counts while keeping computational cost low. The active parameter count determines inference speed and memory usage, while total parameters contribute to knowledge capacity. This architecture enables models like MAI-Thinking-1 to offer competitive performance with much lower resource demands than dense models of similar total size.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/">Introducing Gemma 4 12B - The Keyword</a></li>
-<li><a href="https://lmstudio.ai/models/google/gemma-4-12b">google/gemma-4-12b • LM Studio</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
+<li><a href="https://medium.com/@csburakkilic/understanding-moe-architectures-the-difference-between-total-and-active-parameters-ad1d161fccaa">Understanding MoE Architectures: The Difference Between Total and Active Parameters | by Burak Kılıç | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#gemma`, `#llama.cpp`, `#google`, `#model release`, `#vision tower`
+**Tags**: `#Microsoft`, `#LLM`, `#AI`, `#MAI`, `#Machine Learning`
 
 ---
 
 <a id="item-5"></a>
-## [HTTP/2 Bomb DoS Attack Targets Major Web Servers](https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb) ⭐️ 9.0/10
+## [OpenAI Releases Public Policy Agenda for AI](https://openai.com/index/public-policy-agenda) ⭐️ 8.0/10
 
-Researchers have disclosed a new remote denial-of-service attack called HTTP/2 Bomb that exploits HPACK header compression and connection holding to exhaust server memory, affecting default HTTP/2 configurations in NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora. This vulnerability poses a practical threat to widely used web servers, with some servers becoming unavailable within seconds from a relatively low-bandwidth connection, and only partial fixes are currently available. A single client with a 100 Mbps home network can render some servers unusable in seconds, and on Apache httpd and Envoy, a single client can hold 32 GB of memory in about 20 seconds; NGINX fixed in 1.29.8+, Apache mod_http2 v2.0.41, while IIS, Envoy, and Pingora remain unpatched.
+OpenAI has published its public policy agenda outlining a federal framework for U.S. governance of frontier AI, with focus on safety, youth protection, workforce transition, and global standards. As a leading AI company, OpenAI's proposal could shape future regulation and set industry norms for responsible AI development, affecting policymakers, developers, and society at large. The agenda specifically addresses frontier AI models—the most advanced general-purpose systems—and proposes measures for safety, resilience, and national security within a federal oversight structure.
 
-telegram · zaihuapd · Jun 3, 15:00
+rss · OpenAI Blog · Jun 3, 10:00
 
-**Background**: HPACK is a compression format used in HTTP/2 to efficiently encode header fields. Unlike earlier compression algorithms, HPACK was designed to be resistant to attacks like CRIME. Slowloris is a classic DoS attack that holds many incomplete HTTP connections open to exhaust server resources. The HTTP/2 Bomb combines a HPACK compression amplification technique with connection holding similar to Slowloris, creating a new type of resource exhaustion attack.
+**Background**: Frontier AI refers to the most advanced general-purpose AI systems that offer powerful capabilities but also pose significant risks. OpenAI's policy agenda comes amid growing global debate on how to regulate such transformative technology while fostering innovation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/">HPACK: the silent killer (feature) of HTTP/2</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Slowloris_(cyber_attack)">Slowloris (cyber attack) - Wikipedia</a></li>
-<li><a href="https://rfcinfo.com/rfc-7541/">RFC 7541 - HPACK: Header Compression for HTTP/2 | RFCinfo</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/frontier-models/">What Are Frontier AI Models and How They Work | NVIDIA Glossary</a></li>
+<li><a href="https://www.iguazio.com/glossary/frontier-model/">What is a Frontier Model?</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#vulnerability`, `#DoS`, `#HTTP/2`, `#web servers`
+**Tags**: `#AI policy`, `#OpenAI`, `#AI safety`, `#regulation`, `#AI ethics`
 
 ---
 
 <a id="item-6"></a>
-## [Elixir v1.20 brings gradual typing](https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/) ⭐️ 8.0/10
+## [VoidZero Joins Cloudflare, Sparking Open Source Funding Debate](https://blog.cloudflare.com/voidzero-joins-cloudflare/) ⭐️ 7.0/10
 
-Elixir v1.20, released on June 3, 2026, introduces a gradual type system, allowing developers to optionally add static type annotations to their code. This marks a significant evolution for Elixir, bridging dynamic and static typing to improve code reliability and developer experience without breaking existing dynamic code. The gradual type system is optional; unannotated code remains dynamically typed, and the compiler can now detect type errors at compile time for annotated functions.
+VoidZero, the creator of the Vite build tool, has joined Cloudflare in an acquisition-like move. This announcement has ignited significant community discussion about the sustainability and monetization of open-source projects. This highlights the ongoing challenge of monetizing popular open-source tools and may signal a trend of major tech companies acquiring key open-source talent. It raises questions about the future independence and direction of widely-used projects like Vite. VoidZero is the individual behind Vite, a widely-used frontend build tool known for its speed and zero-configuration setup. This acquisition is similar to Cloudflare's earlier hiring of the Astro team, reflecting a pattern of investing in open-source talent.
 
-hackernews · cloud8421 · Jun 3, 19:02 · [Discussion](https://news.ycombinator.com/item?id=48388324)
+hackernews · coloneltcb · Jun 4, 13:00 · [Discussion](https://news.ycombinator.com/item?id=48398055)
 
-**Background**: Gradual typing allows parts of a program to be statically typed while other parts remain dynamically typed. It was first formalized by Jeremy Siek and Walid Taha in 2006. Elixir previously relied on Dialyzer, a separate tool for static analysis, but the new native type system aims to provide tighter integration and better developer experience.
+**Background**: Vite is a next-generation frontend build tool that provides a fast development experience for modern web projects. It is built on top of Rollup and uses native ES modules in development, offering instant hot module replacement (HMR). The tool has gained significant adoption in the JavaScript ecosystem for its performance and simplicity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gradual_typing">Gradual typing</a></li>
-<li><a href="https://jsiek.github.io/home/WhatIsGradualTyping.html">What is Gradual Typing | Jeremy Siek</a></li>
+<li><a href="https://vite.dev/">Vite | Next Generation Frontend Tooling</a></li>
+<li><a href="https://github.com/vitejs/vite">GitHub - vitejs/vite: Next generation frontend tooling. It's fast! · GitHub</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community is generally positive, with experienced Elixir developers like losvedir expressing excitement about types arriving. However, some commenters questioned the benefits in the era of AI-assisted coding (teleforce), others wondered about asymptotic performance (sestep), and a few expressed skepticism about gradual typing compared to natively typed languages (alprado50).
+**Discussion**: Community comments reveal mixed feelings: some see acquisitions as a necessary path for open-source sustainability, while others feel uneasy about beloved tools being acquired. There is also discussion about the difficulty of building a sustainable business model for developer tools, with references to earlier acquisitions like Astro.
 
-**Tags**: `#elixir`, `#gradual-typing`, `#programming-languages`, `#type-systems`, `#software-engineering`
+**Tags**: `#vite`, `#cloudflare`, `#open-source`, `#acquisition`, `#javascript`
 
 ---
 
 <a id="item-7"></a>
-## [Uber Caps Employee AI Tool Usage to $1,500/Month](https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything) ⭐️ 8.0/10
+## [UK media fails to disclose defence ties in 60% of cases](https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/) ⭐️ 7.0/10
 
-Uber is limiting all employees to $1,500 in monthly token spending per AI coding tool like Claude Code or Cursor, after blowing through its 2026 AI budget in four months. This policy highlights the real cost challenges enterprises face with agentic AI coding tools, and sets a precedent for how companies might manage AI tool budgets relative to engineering salaries. The $1,500 limit applies per tool, not total; with two active tools, an engineer could spend up to $36,000 annually (about 11% of a median $330,000 total compensation package). The cap only covers agentic coding software, not other AI services.
+A report from AOAV found that UK news outlets failed to disclose the defence sector affiliations of expert commentators in nearly 60% of analyzed cases. This lack of transparency undermines public trust in journalism and may allow undisclosed conflicts of interest to influence coverage of defence and military issues. The report analyzed 184 expert appearances across major UK outlets including the BBC, The Telegraph, and GB News, finding only 41% had clear disclosure of defence sector links.
 
-rss · Simon Willison · Jun 3, 12:01 · [Discussion](https://news.ycombinator.com/item?id=48383056)
+hackernews · XzetaU8 · Jun 4, 08:45 · [Discussion](https://news.ycombinator.com/item?id=48395938)
 
-**Background**: Agentic coding tools like Claude Code and Cursor use large language models to autonomously understand codebases, edit files, and run commands, charging per token consumed. They have become popular in 2025-2026, leading to unexpected budget overruns for many companies that set budgets before usage exploded.
+**Background**: AOAV (Action on Armed Violence) is a UK-based charity that monitors armed violence and promotes accountability. The report highlights a potential systemic issue in UK journalism where retired military personnel or defence industry employees are presented as independent experts without disclosing their ongoing financial ties.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-<li><a href="https://www.datacamp.com/blog/best-agentic-ide">The 13 Best Agentic IDEs in 2026 - DataCamp</a></li>
+**Discussion**: Community comments were mixed: some criticized the specific outlets named (e.g., The Telegraph, GB News) while others questioned whether all expert affiliations need disclosure, arguing audiences should engage critical thinking. One commenter noted the relevance of the 'Manufacturing Consent' concept.
 
-</ul>
-</details>
-
-**Discussion**: Commenters debated whether the $1,500 cap is reasonable, with some noting their personal usage exceeds $20k at API rates, while others question if subsidized individual plans will continue. There is also discussion about using cheaper Chinese open-weight models as alternatives.
-
-**Tags**: `#AI tools`, `#cost management`, `#software engineering`, `#tech industry trends`, `#LLM`
+**Tags**: `#media ethics`, `#conflicts of interest`, `#defence sector`, `#journalism`, `#transparency`
 
 ---
 
 <a id="item-8"></a>
-## [Pwnd Blaster: Soundbar Hacked via Bluetooth to Inject Keystrokes](https://blog.nns.ee/2026/06/03/katana-badusb/) ⭐️ 8.0/10
+## [Gaussian Point Splatting Unveiled at SIGGRAPH 2026](https://momentsingraphics.de/Siggraph2026.html) ⭐️ 7.0/10
 
-A security researcher demonstrated a novel attack that reflashes the firmware of a Creative Sound Blaster Katana V2X soundbar over Bluetooth, turning it into a USB keyboard keystroke injector without requiring pairing or user interaction. This attack bypasses traditional security assumptions about trusted peripherals and highlights the risks of Bluetooth-based firmware updates without proper authentication, potentially enabling malware to spread through soundbars and other IoT devices. The attacker flashes a custom firmware descriptor that causes the soundbar to be recognized as a human interface device (keyboard) by the host computer, enabling arbitrary keystroke injection. The vulnerability was assigned CVE-2026-31431, and the researcher released a third-party patch after the vendor declined to fix it.
+A novel rendering technique called Gaussian Point Splatting was presented at SIGGRAPH 2026, sparking discussion on its potential for games and comparisons to mesh splatting. This technique could influence real-time rendering in games and other 3D applications, reviving interest in point-based methods and offering an alternative to traditional mesh-based rendering. The method uses Gaussian primitives for rendering, which differs from mesh splatting; some commenters note that Gaussians may not capture sharp features as well as triangles.
 
-hackernews · xx_ns · Jun 3, 10:53 · [Discussion](https://news.ycombinator.com/item?id=48382310)
+hackernews · ibobev · Jun 4, 10:48 · [Discussion](https://news.ycombinator.com/item?id=48396792)
 
-**Background**: A keystroke injection attack exploits the trust placed in USB Human Interface Devices (HID) to simulate keyboard inputs. Devices like the USB Rubber Ducky have long demonstrated this risk via physical USB connections, but this attack expands the vector to wireless Bluetooth firmware tampering.
+**Background**: Gaussian splatting is a volume rendering technique introduced in the 1990s, where data is rendered directly without converting to surfaces. More recently, 3D Gaussian Splatting (3DGS) from SIGGRAPH 2023 has become popular for photorealistic 3D rendering from point clouds, offering real-time performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.opswat.com/blog/the-danger-of-a-usb-device-and-keystroke-injection-attack">The Danger of a USB Device and Keystroke Injection Attack</a></li>
-<li><a href="https://cybersteps.de/en/blog/usb-rubber-ducky/">USB Rubber Ducky Explained: The Pentesting Tool Unpacked</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
+<li><a href="https://leeyngdo.github.io/blog/computer-graphics/2024-04-09-gaussian-splatting/">[Graphics] Gaussian Splatting</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed frustration with Creative's dismissal of the vulnerability, noting that remote firmware overwriting without authentication is clearly a security risk. Some speculated about the potential for a worm that could spread through supply chains, while others praised the researcher's thorough work and the publication of a patch.
+**Discussion**: Commenters express excitement about potential game applications, debate quality comparisons with mesh splatting, reminisce about older point splatting methods, and speculate about uses like Google Streetview. Some note the lack of available resources for classic point splatting due to search results being dominated by Gaussian splatting.
 
-**Tags**: `#security`, `#firmware`, `#Bluetooth`, `#USB`, `#vulnerability`
+**Tags**: `#computer graphics`, `#rendering`, `#gaussian splatting`, `#point splatting`, `#siggraph`
 
 ---
 
 <a id="item-9"></a>
-## [Let's Encrypt Plans Post-Quantum Certificates with Merkle Tree Certificates](https://letsencrypt.org/2026/06/03/pq-certs) ⭐️ 8.0/10
+## [Wasmer uses Codex to build Node.js runtime for edge](https://openai.com/index/wasmer) ⭐️ 7.0/10
 
-Let's Encrypt announced plans to transition to post-quantum certificates using Merkle Tree Certificates (MTCs), aiming to protect HTTPS/TLS against future quantum computer attacks. This move is significant because it addresses the looming threat of quantum computers breaking current public-key cryptography, and MTCs offer a path to quantum resistance without sacrificing performance. Merkle Tree Certificates integrate certificate transparency directly into issuance, reducing the number of signatures and public keys needed in a handshake to one signature, one public key, and one inclusion proof, which is smaller than current X.509 certificates.
+Wasmer used OpenAI's Codex (a GPT-based coding agent) to build a Node.js runtime for edge computing, achieving 10x to 20x faster development and shipping in weeks instead of months. This case study demonstrates the practical impact of AI-assisted development on complex system software, potentially reducing time-to-market for new edge computing services. It also highlights the synergy between WebAssembly and serverless edge platforms. Wasmer used Codex with GPT-5.5 to accelerate development; the runtime is designed for the edge and leverages Wasmer's WebAssembly runtime. The project shipped in weeks rather than months, representing a 10x to 20x productivity gain.
 
-hackernews · SGran · Jun 3, 15:06 · [Discussion](https://news.ycombinator.com/item?id=48385114)
+rss · OpenAI Blog · Jun 3, 12:00
 
-**Background**: Post-quantum cryptography (PQC) refers to cryptographic algorithms designed to be secure against both classical and quantum computers. Current TLS certificates rely on algorithms like RSA and ECDSA that could be broken by sufficiently powerful quantum computers. Merkle Tree Certificates are a new certificate format that leverages Merkle trees to enable efficient post-quantum authentication.
+**Background**: WebAssembly (Wasm) is a portable binary instruction format for executables, enabling near-native performance in web browsers and beyond. Wasmer is a fast, secure WebAssembly runtime that can run lightweight containers across desktop, cloud, and edge. OpenAI Codex is an AI coding agent that automates software engineering tasks, allowing developers to delegate complex coding work.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.ietf.org/archive/id/draft-davidben-tls-merkle-tree-certs-06.html">Merkle Tree Certificates - ietf.org</a></li>
-<li><a href="https://blog.cloudflare.com/bootstrap-mtc/">Keeping the Internet fast and secure- introducing Merkle Tree ...</a></li>
-<li><a href="https://grokipedia.com/page/Merkle_Tree_Certificates">Merkle Tree Certificates</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WebAssembly">WebAssembly - Wikipedia</a></li>
+<li><a href="https://github.com/wasmerio/wasmer">GitHub - wasmerio/ wasmer : Fast, secure, lightweight containers...</a></li>
+<li><a href="https://grokipedia.com/page/OpenAI_Codex">OpenAI Codex</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion shows a mix of excitement and cautious optimism. Some commenters highlighted the challenge of replacing battle-tested systems and the need for hybrid constructions, while others noted the size and performance advantages of MTCs over alternatives. There was also reference to a blog post addressing common misconceptions about post-quantum cryptography.
-
-**Tags**: `#post-quantum cryptography`, `#Let's Encrypt`, `#Merkle Tree Certificates`, `#TLS`, `#quantum resistance`
+**Tags**: `#AI-assisted development`, `#edge computing`, `#Wasm`, `#Node.js`, `#productivity`
 
 ---
 
 <a id="item-10"></a>
-## [Espressif Announces ESP32-S31 with RISC-V and SIMD](https://www.espressif.com/en/products/socs/esp32-s31) ⭐️ 8.0/10
+## [EVA-Bench Data 2.0: Expanded AI Agent Benchmark with 213 Scenarios](https://huggingface.co/blog/ServiceNow-AI/eva-bench-data) ⭐️ 7.0/10
 
-Espressif has announced the ESP32-S31, a new SoC featuring dual RISC-V cores, SIMD instructions, and a Bitscrambler peripheral for flexible data transformation. This marks a significant shift towards open-source RISC-V architecture in the embedded world, simplifying toolchain development and enabling Rust-based embedded programming without proprietary SDKs. The Bitscrambler peripheral is comparable to Raspberry Pi Pico's PIO, offloading bitwise operations from the CPU during DMA transfers. The SoC is in early bring-up in ESP-IDF master as of December 2025.
+ServiceNow AI released EVA-Bench Data 2.0, a dataset for evaluating AI agents that covers 3 enterprise domains, 121 tools, and 213 scenarios. It introduces controlled perturbations for accent and noise robustness testing, along with pass@1, pass@k, and pass^k metrics to distinguish peak from reliable performance. This expanded benchmark provides a more comprehensive and rigorous evaluation for AI agents, especially voice-based ones, pushing the field toward more realistic and robust systems. It enables developers to identify failure modes in real-world enterprise scenarios, improving the reliability of AI assistants. The dataset covers three enterprise domains: HR, IT, and customer service, with 213 scenarios designed to simulate natural multi-turn conversations. It also includes a controlled perturbation suite that tests robustness to different accents and noise levels, and three evaluation metrics (pass@1, pass@k, pass^k) that separately measure best-case and reliable performance.
 
-hackernews · volemo · Jun 3, 16:10 · [Discussion](https://news.ycombinator.com/item?id=48385965)
+rss · Hugging Face Blog · Jun 4, 12:24
 
-**Background**: ESP32-S31 continues Espressif's ESP32 series, but uses RISC-V instead of Tensilica Xtensa cores. RISC-V is an open-standard ISA that allows anyone to design chips without licensing fees, making it popular in embedded systems. SIMD (Single Instruction, Multiple Data) enables parallel processing of multiple data points with a single instruction, useful for signal processing and AI workloads.
+**Background**: EVA-Bench is a benchmark framework designed to evaluate voice agents in realistic, end-to-end conversational settings. Traditional benchmarks often rely on static question-answer pairs, while EVA-Bench emphasizes dynamic interactions and speech-specific challenges like accents and background noise. The Data 2.0 update significantly expands the original dataset's coverage and evaluation methodology.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s31_datasheet_en.pdf">ESP32-S31Series - Espressif Systems</a></li>
-<li><a href="https://en.wikipedia.org/wiki/RISC-V">RISC - V - Wikipedia</a></li>
-<li><a href="https://esp32.com/viewtopic.php?t=47320">ESP32-S31 :) - ESP32 Forum</a></li>
+<li><a href="https://huggingface.co/papers/2605.13841">Paper page - EVA - Bench : A New End-to-end Framework for...</a></li>
+<li><a href="https://arxiv.org/abs/2605.13841v2">EVA - Bench : A New End-to-end Framework for Evaluating Voice Agents</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community is highly positive, with users praising the move to RISC-V for enabling easier Rust toolchain integration (e.g., 'rustup target add riscv32imac-unknown-none-elf'). Some express confusion over the naming convention, as many different chips are now called ESP32. The Bitscrambler is compared favorably to Raspberry Pi Pico's PIO.
-
-**Tags**: `#ESP32-S31`, `#RISC-V`, `#Embedded Systems`, `#Espressif`, `#SoC`
+**Tags**: `#AI`, `#benchmark`, `#dataset`, `#evaluation`, `#tools`
 
 ---
 
 <a id="item-11"></a>
-## [Mathematicians Warn About AI's Rapid Advance](https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground) ⭐️ 8.0/10
+## [DPO Extended Beyond Chatbots to Diverse Domains](https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots) ⭐️ 7.0/10
 
-Mathematicians have issued a warning about the rapid advancement of artificial intelligence, particularly large language models, and its potential disruptive impact on mathematical research and education. This warning highlights growing concerns within the academic community about AI's role in knowledge creation and verification, potentially reshaping how mathematics is practiced and taught. The warning, published in Science, reflects on issues such as proper attribution, proof verification, and the risk of eroding human involvement in mathematics, with community discussion noting parallels to earlier disruptions in creative fields.
+A blog post explores applying Direct Preference Optimization (DPO) to domains beyond chatbots, such as text summarization and image generation, aiming to align AI models with human preferences without explicit reward modeling. This extension broadens the impact of DPO, a simpler alternative to RLHF, potentially enabling more efficient alignment across diverse AI applications and reducing the computational cost of training reward models. DPO directly optimizes a policy using a closed-form loss derived from human preference pairs, bypassing the need for a separately trained reward model. The blog likely discusses adaptations for non-chatbot tasks and empirical results.
 
-hackernews · pseudolus · Jun 3, 10:05 · [Discussion](https://news.ycombinator.com/item?id=48382052)
+rss · Hugging Face Blog · Jun 3, 12:55
 
-**Background**: Large language models (LLMs) are deep neural networks trained on vast amounts of text, enabling them to generate human-like text and perform various language tasks. Their rapid adoption raises questions about their reliability, long-tail errors, and impact on disciplines that rely on rigorous reasoning, such as mathematics.
+**Background**: Reinforcement Learning from Human Feedback (RLHF) aligns AI agents by training a reward model on human preferences and then optimizing the policy via reinforcement learning. Direct Preference Optimization (DPO) simplifies this by directly optimizing the policy from preference data without an explicit reward model, making it more computationally efficient.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-<li><a href="https://www.ibm.com/think/topics/large-language-models">What are large language models (LLMs)? - IBM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Direct_preference_optimization">Direct preference optimization</a></li>
+<li><a href="https://grokipedia.com/page/Direct_Preference_Optimization">Direct Preference Optimization</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express frustration with AI's occasional 'stupidity' and draw parallels to past disruptions in art and literature, while some argue that AI is more suitable for practical rather than curiosity-driven mathematical problems.
-
-**Tags**: `#AI`, `#mathematics`, `#research`, `#LLMs`, `#disruption`
+**Tags**: `#Direct Preference Optimization`, `#RLHF`, `#Machine Learning`, `#AI Alignment`
 
 ---
 
 <a id="item-12"></a>
-## [BPF in the agentic era](https://lwn.net/Articles/1075067/) ⭐️ 8.0/10
+## [Datasette-Agent-MicroPython Alpha for Safe Code Execution](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything) ⭐️ 6.0/10
 
-At the 2026 LSFMM+BPF Summit, Alexei Starovoitov proposed changes to BPF to prevent it from being overshadowed by LLM-driven coding agents, including improving feedback loops via Rust and user-mode Linux. This matters because BPF is a critical kernel technology for safe extensibility, and without adaptation it risks becoming obsolete as LLM-based coding agents reshape development workflows. The proposed changes could keep BPF relevant and improve developer experience. Starovoitov suggested that BPF's verifier should offload error detection to userspace tools like Rust, while retaining kernel-side security checks. He also proposed running the verifier inside user-mode Linux to bypass the need for virtual machines during testing.
+Simon Willison released datasette-agent-micropython 0.1a0, an alpha version that enables safe Python code execution within Datasette Agent using WebAssembly sandboxing with MicroPython. This is significant because it allows large language models like GPT-5.5 to generate and execute Python code within Datasette Agent without security risks, potentially enabling powerful data analysis automation. The project uses MicroPython compiled to WebAssembly as a sandbox, and early testing shows GPT-5.5 has so far failed to break out of the sandbox. It is an early-stage alpha release (0.1a0).
 
-rss · LWN.net · Jun 3, 13:14
+rss · Simon Willison · Jun 2, 19:28
 
-**Background**: BPF (Berkeley Packet Filter) is a kernel technology that allows safe, sandboxed program execution, commonly used for networking, tracing, and security. The BPF verifier ensures programs cannot crash the kernel. LLM-based coding agents thrive on tight feedback loops, but BPF's kernel-side verification and virtual-machine testing create latency that hinders adoption.
+**Background**: Datasette is an open-source tool for exploring and publishing data. Datasette Agent is an LLM-powered assistant for Datasette. MicroPython is a lean implementation of Python 3 optimized for microcontrollers but can also be compiled to WebAssembly. WebAssembly sandboxing allows code to run in an isolated environment, preventing malicious actions. This release combines these technologies to enable safe code execution within Datasette Agent.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Berkeley_Packet_Filter">Berkeley Packet Filter - Wikipedia</a></li>
-<li><a href="https://www.kernel.org/doc/html/latest/networking/filter.html">Linux Socket Filtering aka Berkeley Packet Filter ( BPF )</a></li>
+<li><a href="https://pypi.org/project/datasette-agent/">An LLM-powered agent assistant for Datasette</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MicroPython">MicroPython</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#BPF`, `#Linux`, `#LLM`, `#coding agents`, `#kernel`
+**Tags**: `#python`, `#sandboxing`, `#datasette`, `#webassembly`, `#datasette-agent`
 
 ---
 
 <a id="item-13"></a>
-## [Tridgell defends LLM use for rsync security](https://lwn.net/Articles/1076040/) ⭐️ 8.0/10
+## [OpenAI Enhances GPT-Rosalind for Life Sciences](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind) ⭐️ 6.0/10
 
-Andrew Tridgell, the maintainer of rsync, published a blog post defending his use of LLM tools to improve rsync's security in response to a flood of AI-generated security reports. This incident highlights the growing tension in open source maintenance where maintainers turn to AI tools to combat an influx of AI-generated security reports, sparking debate about the role of AI in software security. Tridgell noted that not all reports are AI-generated; some involve careful manual analysis, and he has recruited new developers partly due to the controversy surrounding his approach.
+OpenAI announced new capabilities for GPT-Rosalind, including enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow support. This update strengthens GPT-Rosalind's utility in drug discovery and genomics, potentially accelerating research in life sciences. The new capabilities cover multiple areas of life sciences research, but specific benchmarks or performance metrics were not disclosed.
 
-rss · LWN.net · Jun 3, 13:00
+rss · OpenAI Blog · Jun 3, 13:15
 
-**Background**: Defense-in-depth is a cybersecurity strategy that uses multiple layers of controls to protect systems; if one layer fails, others mitigate risks. Open source maintainers like Tridgell face a growing number of low-quality AI-generated security reports, which can overwhelm traditional review processes and drive adoption of automated tools.
+**Background**: GPT-Rosalind is a specialized AI model from OpenAI designed for life sciences research, named after Rosalind Franklin, a pioneer in molecular biology. It aims to assist researchers in drug discovery, protein analysis, and genomics. This announcement builds on the initial release of GPT-Rosalind.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-defense-in-depth">What Is Defense-in-Depth?: A Layered Cybersecurity Strategy</a></li>
+<li><a href="https://openai.com/index/introducing-gpt-rosalind/">Introducing GPT - Rosalind for life sciences research | OpenAI</a></li>
+<li><a href="https://medium.com/@mealermed/openai-rolls-out-gpt-rosalind-for-biology-research-and-expands-codex-plugin-integration-on-github-80ea4d32a11d">OpenAI Rolls Out GPT - Rosalind for Biology Research and... | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#rsync`, `#open source maintenance`, `#LLM`, `#security`, `#AI in software development`
+**Tags**: `#AI`, `#life sciences`, `#drug discovery`, `#GPT`, `#natural language processing`
 
 ---
 
 <a id="item-14"></a>
-## [NeurIPS Desk Rejection Sparks AI Detector Validation Debate](https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/) ⭐️ 8.0/10
+## [Fine-Tuning Nvidia Nemotron 3.5 ASR for Custom Needs](https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr) ⭐️ 6.0/10
 
-A NeurIPS 2026 Position Paper Track submission was desk-rejected based on the proprietary AI-text detector Pangram, with the author highlighting circularity in the adjudication process and lack of calibration on the target submission distribution. This incident raises critical questions about the reliability of AI detectors in high-stakes academic evaluations, especially when the detector's false-positive rate on the actual submission pool is unknown, potentially leading to unfair rejections and undermining trust in conference policies. The author reports that Pangram returned AI scores for track chair papers ranging from 24% to 69% AI, which does not prove AI authorship but illustrates the detector's variability; the NeurIPS blog described tests on synthetic samples but not on real submissions, leaving the false-positive rate on the target distribution unmeasured.
+Nvidia released a step-by-step guide on Hugging Face for fine-tuning the Nemotron 3.5 ASR model, enabling adaptation to specific languages, domains, or accents. This tutorial lowers the barrier for customizing a state-of-the-art ASR model, empowering developers and researchers to improve speech recognition for niche scenarios without training from scratch. The Nemotron 3.5 ASR model has 0.6 billion parameters and supports streaming recognition with 36 languages in a single checkpoint. The fine-tuning process likely involves techniques like LoRA or full fine-tuning on curated datasets.
 
-reddit · r/MachineLearning · /u/Asleep-Requirement13 · Jun 3, 17:28
+rss · Hugging Face Blog · Jun 4, 12:59
 
-**Background**: AI text detectors like Pangram analyze text to predict the likelihood it was generated by AI. Academic conferences sometimes use them to enforce policies against AI-generated content. However, detectors often have different accuracy on seen vs. unseen data, and their false-positive rates can be high on human-written text that differs from training data, a problem exacerbated when the target distribution (conference submissions) differs from test sets.
+**Background**: Automatic Speech Recognition (ASR) converts audio to text. Fine-tuning adapts a pretrained model to a new task or domain with limited data. Nemotron 3.5 ASR is a cache-aware streaming model from Nvidia, efficient for real-time applications.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.pangram.com/">AI Detector — Verified AI Content Checker | Pangram</a></li>
-<li><a href="https://max-productive.ai/ai-tools/pangram/">Pangram Review (2026): Is It The Most Accurate AI Detector ?</a></li>
-<li><a href="https://www.researchgate.net/publication/388681674_The_Role_of_AI_Detection_Tools_in_Upholding_Academic_Integrity_An_Evaluation_of_their_Effectiveness">The Role of AI Detection Tools in Upholding Academic ...</a></li>
+<li><a href="https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b">nvidia/ nemotron - 3 . 5 - asr -streaming-0.6b · Hugging Face</a></li>
+<li><a href="https://www.together.ai/models/nvidia-nemotron-35-asr">NVIDIA Nemotron 3 . 5 ASR API | Together AI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI detection`, `#NeurIPS`, `#academic integrity`, `#machine learning conferences`, `#policy`
+**Tags**: `#fine-tuning`, `#ASR`, `#Nemotron`, `#Nvidia`, `#Hugging Face`
 
 ---
 
 <a id="item-15"></a>
-## [TorchDAE Library Brings Differentiable DAE Solvers to PyTorch](https://www.reddit.com/r/MachineLearning/comments/1tvn4ux/torchdae_implicit_dae_solvers_with_index/) ⭐️ 8.0/10
+## [Integrating MCP Tools with Reachy Mini Robot](https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini) ⭐️ 6.0/10
 
-A new PyTorch library called TorchDAE has been released, providing implicit differential algebraic equation (DAE) solvers with GPU acceleration, index reduction via dummy derivatives, and adjoint sensitivity methods. TorchDAE fills a critical gap in the PyTorch ecosystem by enabling differentiable DAE simulations, which are essential for scientific machine learning applications such as system identification and physics-informed modeling, all with GPU support. The library implements Generalized-Alpha time integration, dummy derivatives index reduction, and adjoint sensitivity analysis for DAEs, supporting vectorized execution and GPU acceleration.
+A guide on Hugging Face blog details how to integrate Model Context Protocol (MCP) tools with the open-source Reachy Mini desktop humanoid robot for enhanced AI interactions. This integration showcases a novel application of MCP in robotics, enabling AI agents to control physical hardware via standardized tool interfaces, potentially inspiring more developers to build interactive AI-powered robots using open-source platforms. The guide uses a robot with two arms and a head that can pick up objects, controlled via MCP tools that communicate with a Python-based MCP server, highlighting tool calling for arm movement, object detection, and multi-language conversation generation.
 
-reddit · r/MachineLearning · /u/Otaku_7nfy · Jun 3, 11:57
+rss · Hugging Face Blog · Jun 3, 00:00
 
-**Background**: Differential algebraic equations (DAEs) are a class of equations that combine ordinary differential equations with algebraic constraints, commonly arising in mechanical systems, circuit simulation, and chemical processes. The 'index' of a DAE measures its complexity; high-index DAEs (index > 1) are difficult to solve numerically and often require index reduction techniques like dummy derivatives to convert them into lower-index forms. Adjoint sensitivity methods efficiently compute gradients of simulation outputs with respect to parameters, enabling gradient-based optimization and machine learning integration.
+**Background**: The Model Context Protocol (MCP) is an open standard introduced by Anthropic in November 2024 to standardize how AI systems integrate with external tools and data. Reachy Mini is an open-source desktop humanoid robot with a Python SDK and Hugging Face integration, designed for AI experimentation. This blog post combines both technologies to create an interactive robot controlled by an LLM agent.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://lucris.lub.lu.se/ws/files/9390471/7477.pdf">Index Reduction in Differential-Algebraic Equations Using ...</a></li>
-<li><a href="https://epubs.siam.org/doi/10.1137/0914043">Index Reduction in Differential-Algebraic Equations Using ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+<li><a href="https://reachymini.net/">Reachy Mini - Open-Source Desktop Humanoid Robot</a></li>
+<li><a href="https://modelcontextprotocol.io/">What is the Model Context Protocol ( MCP )? - Model Context Protocol</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#PyTorch`, `#DAE solvers`, `#scientific machine learning`, `#adjoint sensitivity`, `#index reduction`
-
----
-
-<a id="item-16"></a>
-## [Qwen3.5-9B beats Gemma-4-12B in 5/8 benchmarks](https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/) ⭐️ 8.0/10
-
-A Reddit user compared Gemma-4-12b-it and Qwen3.5-9B on 8 shared benchmarks from their official model cards, finding Qwen wins in 5 benchmarks despite having fewer parameters and a lighter KV cache footprint. This direct comparison challenges the hype around Gemma-4, showing that smaller open-source models like Qwen can outperform larger ones on many tasks, which is valuable for practitioners choosing efficient models. Benchmark results were taken from official Hugging Face model cards; Qwen3.5-9B wins overall despite being 9B vs Gemma-4-12B's 12B parameters. The poster notes that for coding, a Qwen3.5-9B finetune (omnicoder-9b) may be a better choice than Gemma-4-12b-it.
-
-reddit · r/LocalLLaMA · /u/fulgencio_batista · Jun 3, 19:51
-
-**Background**: The KV cache is a memory structure used during autoregressive generation in transformers, storing key and value vectors to avoid recomputation. It grows with sequence length and batch size, affecting effective throughput, especially for long contexts. Models with smaller KV cache per parameter can serve more concurrent users or longer sequences on the same hardware.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://grokipedia.com/page/KV_cache">KV cache</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#LLM comparison`, `#benchmarks`, `#AI models`, `#open-source`
-
----
-
-<a id="item-17"></a>
-## [Android phone becomes Vulkan-accelerated LLM inference node](https://www.reddit.com/r/LocalLLaMA/comments/1tw63jz/i_turned_an_android_phone_into_a/) ⭐️ 8.0/10
-
-A developer successfully turned an Android phone into a Vulkan-accelerated local LLM inference server using GGUF models, integrated into a self-hosted mesh via LiteLLM and Tailscale. This demonstrates a novel approach to distributed LLM inference, enabling edge devices like phones to contribute GPU-accelerated computation to a mesh, potentially reducing reliance on expensive hardware. The setup loads GGUF models on-device, uses Vulkan for mobile GPU acceleration with gpu_layers=89, and exposes an OpenAI-compatible endpoint routed through LiteLLM and Tailscale mesh.
-
-reddit · r/LocalLLaMA · /u/GsxrGuy80s · Jun 3, 23:15
-
-**Background**: GGUF is a binary format optimized for fast loading and inference of LLMs on consumer hardware, commonly used with llama.cpp. LiteLLM acts as a unified proxy to route requests to various LLM backends. Tailscale creates a secure mesh VPN network for device connectivity.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/docs/hub/gguf">GGUF · Hugging Face</a></li>
-<li><a href="https://github.com/BerriAI/litellm">GitHub - BerriAI/litellm: Python SDK, Proxy Server (AI ... litellm | Python SDK, Proxy Server (AI Gateway) to call 100 ... LiteLLM Proxy Production Tutorial: LLM Gateway in 2026 LiteLLM Setup: Unified Proxy for Multi-Provider LLMs LiteLLM Proxy (LLM 网关) | liteLLM 网关 litellm · PyPI</a></li>
-<li><a href="https://tailscale.com/learn/understanding-mesh-vpns">Understanding Mesh VPNs - Tailscale</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#LocalLLM`, `#Vulkan`, `#Android`, `#GGUF`, `#LiteLLM`
+**Tags**: `#MCP`, `#robotics`, `#Hugging Face`, `#AI tools`, `#Reachy Mini`
 
 ---
