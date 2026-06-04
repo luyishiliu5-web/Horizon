@@ -2,12 +2,13 @@
   "version": "1.0",
   "ai": {
     "provider": "openai",
-    "model": "gpt-4",
-    "api_key_env": "OPENAI_API_KEY",
+    "model": "deepseek-chat",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "DEEPSEEK_API_KEY",
     "temperature": 0.3,
     "max_tokens": 4096,
     "throttle_sec": 0,
-    "analysis_concurrency": 1,
+    "analysis_concurrency": 2,
     "enrichment_concurrency": 1
   },
   "email": {
@@ -25,20 +26,48 @@
     "github": [
       {
         "type": "user_events",
-        "username": "torvalds",
+        "username": "karpathy",
+        "enabled": true
+      },
+      {
+        "type": "user_events",
+        "username": "ggerganov",
+        "enabled": true
+      },
+      {
+        "type": "user_events",
+        "username": "lilianweng",
         "enabled": true
       },
       {
         "type": "repo_releases",
-        "owner": "astral-sh",
-        "repo": "uv",
+        "owner": "openai",
+        "repo": "openai-python",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "deepseek-ai",
+        "repo": "DeepSeek-V3",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "anthropics",
+        "repo": "anthropic-sdk-python",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "ggml-ai",
+        "repo": "llama.cpp",
         "enabled": true
       }
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 20,
-      "min_score": 100
+      "fetch_top_stories": 30,
+      "min_score": 50
     },
     "rss": [
       {
@@ -48,10 +77,58 @@
         "category": "ai-tools"
       },
       {
-        "name": "LWN.net (subscriber full-text)",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": false,
-        "category": "linux"
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog/rss.xml",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "Anthropic Blog",
+        "url": "https://www.anthropic.com/feed.xml",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai/rss/",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "Meta AI Blog",
+        "url": "https://ai.meta.com/blog/feed/",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "Stability AI Blog",
+        "url": "https://stability.ai/blog/rss.xml",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "ArXiv ML (cs.LG)",
+        "url": "https://rss.arxiv.org/rss/cs.LG",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "ArXiv AI (cs.AI)",
+        "url": "https://rss.arxiv.org/rss/cs.AI",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "ArXiv CL (cs.CL)",
+        "url": "https://rss.arxiv.org/rss/cs.CL",
+        "enabled": true,
+        "category": "ai-ml"
       }
     ],
     "reddit": {
@@ -62,23 +139,32 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 50
-        }
-      ],
-      "users": [
+          "fetch_limit": 20,
+          "min_score": 30
+        },
         {
-          "username": "iamthatis",
+          "subreddit": "LocalLLaMA",
           "enabled": true,
-          "sort": "new",
-          "fetch_limit": 10
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 20,
+          "min_score": 20
+        },
+        {
+          "subreddit": "artificial",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 30
         }
       ],
+      "users": [],
       "fetch_comments": 5
     },
     "twitter": {
       "enabled": false,
-      "users": ["karpathy", "ylecun"],
+      "users": ["karpathy", "ylecun", "jm_tang"],
       "fetch_limit": 10,
       "fetch_reply_text": false,
       "max_replies_per_tweet": 3,
@@ -101,17 +187,17 @@
       ]
     },
     "ossinsight": {
-      "enabled": false,
+      "enabled": true,
       "period": "past_24_hours",
-      "languages": ["All", "Python", "TypeScript"],
+      "languages": ["All", "Python", "TypeScript", "Rust"],
       "keywords": [],
-      "min_stars": 10,
-      "max_items": 30
+      "min_stars": 20,
+      "max_items": 20
     }
   },
   "filtering": {
     "ai_score_threshold": 6.0,
-    "time_window_hours": 24
+    "time_window_hours": 48
   },
   "webhook": {
     "enabled": false,
@@ -140,7 +226,7 @@
           "elements": [
             {
               "tag": "markdown",
-              "content": "Horizon生成结果: #{result}\nHorizon日报重要资讯数量: #{important_items}/#{all_items}"
+              "content": "Horizon生成结果: #{result}\\nHorizon日报重要资讯数量: #{important_items}/#{all_items}"
             },
             {
               "tag": "hr"
